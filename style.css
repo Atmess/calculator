@@ -1,0 +1,8 @@
+body{font-family: Arial, sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f3f3f3}
+		#calculator{background:#222;padding:16px;border-radius:8px;width:320px;color:#fff}
+		.display{background:#000;color:#0f0;padding:12px;font-size:24px;border-radius:4px;text-align:right;overflow:hidden}
+		.key{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:8px;margin-top:12px}
+		button{padding:16px;font-size:18px;border:0;border-radius:6px;cursor:pointer}
+		button.op{background:#ff9500;color:#fff}
+		button.func{background:#a6a6a6}
+		button.digit{background:#333;color:#fff}
